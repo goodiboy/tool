@@ -2,7 +2,7 @@
 const Client = require('ssh2-sftp-client')
 const path = require('path');
 const fs = require('fs');
-const moment = require('moment')
+const moment = require('moment') // 由于我的项目中使用了moment，就直接使用了。建议换成dayjs
 const archiver = require('archiver');
 
 // sfp配置

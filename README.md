@@ -1,24 +1,17 @@
-# test-ftp
+# tool
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 配置ftp信息之后，自动上传代码到对应的ftp路径
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run ftp
 ```
 
-### Lints and fixes files
+### 生成git信息，用于打包后方便在线上查看代码的信息
 ```
-npm run lint
+npm run tag
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
